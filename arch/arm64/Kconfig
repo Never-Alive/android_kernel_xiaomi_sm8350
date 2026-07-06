@@ -1902,12 +1902,6 @@ config ARCH_HIBERNATION_HEADER
 config ARCH_SUSPEND_POSSIBLE
 	def_bool y
 
-config AS_IS_LLVM
-        def_bool y
-
-config KFENCE
-        def_bool y
-
 endmenu
 
 menu "CPU Power Management"
